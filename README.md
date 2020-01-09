@@ -1,2 +1,2 @@
 # Daily Python
-Short Python articles daily.
+Short Python articles, daily.
