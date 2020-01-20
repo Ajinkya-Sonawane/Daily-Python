@@ -6,8 +6,8 @@ def createConnection():
     global mydb
     mydb = mysql.connector.connect(
         host="127.0.0.1",
-        user="root",
-        passwd="dailypy",
+        user="YOUR_MYSQL_USERNAME",
+        passwd="YOUR_MYSQL_PASSWORD",
         database="dailypy"
     )
     print(mydb)
@@ -25,9 +25,9 @@ def get_articles(keyword=''):
     return jsonResult
 
 createConnection()
-# from pprint import PrettyPrinter
-# pp = PrettyPrinter()
-# pp.pprint(get_articles())
+from pprint import PrettyPrint  er
+pp = PrettyPrinter()    
+pp.pprint(get_articles())
 
 app = Flask(__name__)
 
