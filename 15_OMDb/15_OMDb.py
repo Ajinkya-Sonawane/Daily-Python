@@ -2,8 +2,7 @@ import requests
 from pprint import PrettyPrinter
 pp = PrettyPrinter()
 
-
-apiKey = 'bab9c09' 
+apiKey = 'YOUR_OMDb_API_Key' 
 
 #Fetch Movie Data
 data_URL = 'http://www.omdbapi.com/?apikey='+apiKey
